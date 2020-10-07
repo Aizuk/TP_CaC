@@ -1,0 +1,140 @@
+header{
+	background-color: #000;
+	color: #fff;
+	height: 7rem;
+	max-width: 1350px;
+}
+h1{
+	display: flex;
+	justify-content: center;
+	vertical-align: middle;
+}
+header nav{
+	position: relative;
+	top: 1em;
+	left: .5em;
+}
+.navButton{
+	background-color: #696767;
+	color: #fff;
+	text-decoration: none;
+	padding: 5px;
+	border-radius: 5px;
+}
+body{
+	max-width: 1350px;
+}
+menu{
+	margin: auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	max-width: 1350px;
+}
+menu >*{
+	margin: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	max-width: 30rem;
+}
+#moreInfoContent > div{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+#Table, #List{
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+}
+#table *{
+	text-align: center;
+	align-content: center;
+}
+ul{
+	text-align: left;
+}
+#menuForm{
+	max-width: 30rem;
+}
+#menuMapas{
+	max-width: 60rem;
+}
+#menuMapas >*{
+	max-width: 50rem;
+}
+#mapas{
+
+}
+.cosaConTitulo{
+	flex-direction: column;
+	align-items: center;
+}
+#imgIndex{
+	width: 30rem;
+	height: 20rem;
+}
+#imgDescrp{
+	width: 20rem;
+	height: 20rem;
+}
+#mapas{
+	position: relative;
+	margin: auto;
+}
+form input[type="submit"]{
+	width:100%;
+	padding:8px 16px;
+	margin-top:32px;
+	border:1px solid #000;
+	border-radius:5px;
+	display:block;
+	color:#fff;
+	background-color:#000;
+} 
+form{
+	width:20rem;
+	padding:16px;
+	border-radius:.625rem;
+	margin:auto;
+	margin-top: 1.25rem;
+	background-color:#ccc;
+}
+form input[type="submit"]:hover{
+	cursor:pointer;
+}
+form input[type="text"]{
+	width: 70%;
+}
+form label{
+	width:72px;
+	font-weight:bold;
+	display:inline-block;
+}
+#moreInfoButton{
+	margin-top: 1rem;
+}
+.imagenPrincipal{
+	text-align: center;
+}
+#textoMenu{
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+footer{
+	background-color: #000;
+	color: #fff;
+	text-align: center;
+	margin-top: 20px;
+	height: 8em;
+	max-width: 1350px;
+}
+footer a{
+	color: #fff;
+}
